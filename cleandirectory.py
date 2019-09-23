@@ -44,7 +44,6 @@ def main():
         pass
       
 
-
 #this method returns the type of a file
 def getFileType(fileName):
     result = fileName.split('.')
@@ -60,6 +59,7 @@ def moveAFile(fromFile, toFile):
   
   shutil.move(fromFile, toFile)
 
+# this function prints a list to the console
 def printAList(aList):
     for element in aList:
         print(element)
