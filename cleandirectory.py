@@ -32,27 +32,6 @@ typeAndFolder = {
   "zip": "Zip"
 }
 
-officeTypeAndFolder = {
-  "doc": "Word",
-  "docx": "Word",
-  "xls": "Excel",
-  "xlsx": "Excel",
-  "xlsm": "Excel",
-  "xltx": "Excel",
-  "xltm": "Excel",
-  "ppt": "PowerPoint",
-  "pptx": "PowerPoint",
-  "pptm": "PowerPoint",
-  "ppsm": "PowerPoint",
-  "accdb": "Access",
-  "accde": "Access",
-  "accdt": "Access",
-  "accdr": "Access",
-  "pub": "Publisher",
-  "xps": "Other",
-  
-}
-
 def main():
     onlyfiles = [f for f in listdir(directoryPath) if isfile(join(directoryPath, f))]
     #printAList(onlyfiles)
